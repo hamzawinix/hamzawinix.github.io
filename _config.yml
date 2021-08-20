@@ -1,0 +1,70 @@
+# Site settings
+title: hamzawinix 
+description: "hamzawinix blog"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+
+# User settings
+username: hamzawinix 
+user_title: hamzawinix 
+email: hamzawinix@gmail.com
+twitter_username: hamzawinix 
+github_username:  hamzawinix
+gplus_username:  hamzawinix
+linkedin_public_url: hamzawinix # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: hamzawinix
+profile_picture: https://64.media.tumblr.com/55b0a0f81590b566bfcdf0b1660134d1/66e304f3bc3c7859-1c/s500x750/75e53a06edb3a2919bf188b46f9f131c970adea6.jpg 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: Home 
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/victorvoid
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: http://www.twitter.com/victorvoid
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# projects in header index
+projects:
+  - name: fluany
+    url: https://github.com/fluany/fluany
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
