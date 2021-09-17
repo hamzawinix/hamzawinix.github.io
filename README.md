@@ -1,5 +1,5 @@
 My lil space of 
-# the internet
+### the internet
 based on 
-# Space Jekyll
+### Space Jekyll
 
