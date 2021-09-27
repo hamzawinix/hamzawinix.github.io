@@ -1,5 +1,5 @@
 
-<img src="https://user-images.githubusercontent.com/34142795/134910097-af013bff-08f2-4f4d-818f-6f820762fae6.png" width="40%" height="40%" align = center>
+<img src="https://user-images.githubusercontent.com/34142795/134910097-af013bff-08f2-4f4d-818f-6f820762fae6.png" width="40%" height="40%" >
 ## Introduction (you can skip)
 Zathura is a great pdf viewer, unfortunately it ain't available for windows natively (yet), here is hopefully an easy way to run it under wsl using VcXsrv.
 
