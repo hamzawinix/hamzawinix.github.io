@@ -32,3 +32,4 @@ $ zathura yourpdf.pdf
 
 <img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="20%" height="20%">
 <p align=center style="color : red;">Happy zathura-ing</p>
+<p style= "font-family: 'Sofia';font-size: 22px;">abcdefghijklmnopqrstuvwxyz</p>
