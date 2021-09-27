@@ -31,7 +31,7 @@ $ zathura yourpdf.pdf
 ```
 
 <img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="20%" height="20%">
-<p align=center style="color : red;">Happy zathura-ing</p>
+<p align=center style="color : #ab67ab; font-family: 'Sofia';font-size: 44px;">Happy zathura-ing</p>
 
 
 <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
