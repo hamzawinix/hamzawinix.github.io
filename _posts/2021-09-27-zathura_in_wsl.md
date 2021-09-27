@@ -19,19 +19,16 @@ Zathura is a great pdf viewer, unfortunately it ain't available for windows nati
 
 ``` bash 
 $ export DISPLAY=127.0.0.1:0.0
- 
 $ vim .config/zathura/zathurarc
-```
-```vim
 set sandbox none
 :wq
 ```
 
-<img src="https://user-images.githubusercontent.com/34142795/134903542-51d5bb4d-3480-49bb-b4d1-0b3b314abff2.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/34142795/134903542-51d5bb4d-3480-49bb-b4d1-0b3b314abff2.png" width="20%" height="20%">
 
 ```bash
 $ zathura yourpdf.pdf
 ```
 
-<img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="20%" height="20%">
 <p align=center style="color : red;">Happy zathura-ing</p>
