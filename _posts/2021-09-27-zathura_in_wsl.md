@@ -7,8 +7,8 @@ Zathura is a great pdf viewer, unfortunately it ain't available for windows nati
 
 ### you downloaded and installed 
 
-- [ ] [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
-- [ ] [wsl](https://docs.microsoft.com/en-us/windows/wsl/install)
+- [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
+- [wsl](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 ## VcXsrv section
 
@@ -30,11 +30,7 @@ set sandbox none
 $ zathura yourpdf.pdf
 ```
 
-<img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="20%" height="20%">
-<p align=center style="color : #ab67ab; font-family: 'Sofia';font-size: 44px;">Happy zathura-ing</p>
-
-
+<img src="https://user-images.githubusercontent.com/34142795/134903711-3b1c8eea-cae2-47e3-8e2b-62ba61aae816.png" width="40%" height="40%">
 <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-
-
+<p align=center style="color : #ab67ab; font-family: 'Sofia';font-size: 44px;">Happy zathura-ing</p>
 <p style= "font-family: 'Sofia';font-size: 22px;">abcdefghijklmnopqrstuvwxyz</p>
