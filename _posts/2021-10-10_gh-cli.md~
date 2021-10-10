@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "template"
+image: ''
+date:   2021-10-10 
+tags:
+- Github
+description: 'Githubian stuffz'
+categories:
+- Learn GH 
+---
+
+<p class="music-read"><a href="spotify:track:4DAZ8UYNpWVIV46aLkN2Qp">Music for reading(spotify)</a></p>
+
+<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif">
+
+## GH-cli tool
+
+`gh` is a tool that integrates most of github functionalities into the terminal, you can manage repos, issues and authintication tokens
+
+## Quick start 
+
+Windows : use chocolaty `choco install gh`
+Linux : <a https://github.com/cli/cli/blob/trunk/docs/install_linux.md>
+
+### Auth 
+
+use `gh auth login` to authinticate with your github account, follow instructions that will appear on terminal
+
+## Setting an editor 
+`gh config set editor <editor>`, I recommend vim cause you won't break the flow each time tou wanna commit by opening a graphical editor
+
+## simple workflow
+
+list repos for a specific user
+`gh repo list hamzawinix`
+
+clone a repo by user/repo
+`gh repo clone hamzawinix/hamzawinix.github.io`
+
+add newly created files to a repo 
+`git add .`
+
+commit all and write a long message
+`git commit -a`
+
+commit all and write a short one liner
+`git commit -a -m "commit message"`
+
+push local repo to source
+`git push`
