@@ -1,54 +1,118 @@
+```html
 ---
 layout: minimal
 title: "About Me"
 permalink: /about/index.html
-description: "Some description"
+description: "A passionate developer, hacker, and engineer exploring the world of technology."
 ---
 
-<!-- <img itemprop="image" class="img-rounded about_perfil" src="" alt="My profile"> -->
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-<h1 align="center">Hi 👋, I'm Hamza 👨‍💻</h1>
-<h3 align="center">Dev | Hacker | Engineer</h3>
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-- ⚡ I'm a Pro Hacker Rank at [HackTheBox](https://app.hackthebox.com/profile/174366).<br>
-- 🌱 I’m currently programming on [LeetCode](https://leetcode.com/u/hamzawinix2/).
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #333;
+}
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.leetcode.com/hamzawinix2" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="hamzawinix2" height="30" width="40" />
-</a>
-</p>
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #555;
+}
 
-<h3 style="display: inline; margin-right: 10px;">Languages and Tools:</h3>
-<p style="display: inline;" align="left">
-    <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-        <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.social-links img {
+  height: 30px;
+  width: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill-icon {
+  margin: 10px;
+}
+
+.skill-icon img {
+  height: 40px;
+  width: 40px;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.project-name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #333;
+}
+</style>
+
+<div class="container">
+  <img src="your-profile-picture.jpg" alt="Hamza's Profile" class="profile-picture" style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 20px;">
+  <h1>Hi , I'm Hamza </h1>
+  <h3>Dev | Hacker | Engineer</h3>
+
+  <p>A passionate developer, hacker, and engineer exploring the world of technology. I'm always eager to learn new things and push the boundaries of what's possible.</p>
+
+  <h3>Connect with me:</h3>
+  <div class="social-links">
+    <a href="https://www.leetcode.com/hamzawinix2" target="blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" />
     </a>
-    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
-    </a>
-    <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40" />
-    </a>
-    <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
-    </a>
-    <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40" />
-    </a>
-    <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
-    </a>
-</p>
+    <!-- Add more social media links here -->
+  </div>
 
-
-<h2>My Projects</h2>
-
-<div class="aboutme">
-    <ul class="recent">
-        {% for project in site.projects %}
-            <li><a href="{{ project.url }}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
-        {% endfor %}
-    </ul>
-</div>
+  <h3>Languages and Tools:</h3>
+  <div class="skills">
+    <div class="skill-icon">
+      <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
+        <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" />
+      </a>
+    </div>
+    <div class="skill-icon">
+      <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" />
+      </a>
+    </div>
+    <div class="skill-icon">
+      <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
+        <
